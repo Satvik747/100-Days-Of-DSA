@@ -19,7 +19,7 @@ Explanation: A subarray is a continuous part of the array. For the input array 1
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main(){
     int n;
     scanf("%d", &n);
 
@@ -44,4 +44,5 @@ int main() {
     free(arr);
     free(freq);
     return 0;
+
 }
