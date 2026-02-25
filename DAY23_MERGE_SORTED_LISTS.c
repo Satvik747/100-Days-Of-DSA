@@ -30,7 +30,7 @@ struct Node {
 };
 struct Node* createList(int n) {
     struct Node *head = NULL, *temp = NULL, *newNode = NULL;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++){
         newNode = (struct Node*)malloc(sizeof(struct Node));
         scanf("%d", &newNode->data);
         newNode->next = NULL;
@@ -119,4 +119,5 @@ int main() {
     struct Node* merged = mergeLists(list1, list2);
     printList(merged);
     return 0;
+
 }
