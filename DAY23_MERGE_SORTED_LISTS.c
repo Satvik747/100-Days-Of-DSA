@@ -24,7 +24,7 @@ Compare nodes of both lists, append smaller to result, continue until all nodes 
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node {
+struct Node{
     int data;
     struct Node* next;
 };
@@ -121,3 +121,4 @@ int main() {
     return 0;
 
 }
+
