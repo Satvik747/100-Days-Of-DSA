@@ -28,7 +28,7 @@ struct Node{
     int data;
     struct Node* next;
 };
-struct Node* createList(int n) {
+struct Node* createList(int n){
     struct Node *head = NULL, *temp = NULL, *newNode = NULL;
     for (int i = 0; i < n; i++){
         newNode = (struct Node*)malloc(sizeof(struct Node));
@@ -121,4 +121,5 @@ int main() {
     return 0;
 
 }
+
 
