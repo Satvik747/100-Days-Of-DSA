@@ -34,7 +34,7 @@ struct Node* createList(int n){
         newNode = (struct Node*)malloc(sizeof(struct Node));
         scanf("%d", &newNode->data);
         newNode->next = NULL;
-        if (head == NULL) {
+        if (head == NULL){
             head = newNode;
             temp = newNode;
         } else {
@@ -121,5 +121,6 @@ int main() {
     return 0;
 
 }
+
 
 
