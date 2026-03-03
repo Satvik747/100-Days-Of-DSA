@@ -27,7 +27,7 @@ struct Node {
     struct Node* next;
 };
 
-int main() {
+int main(){
     int n, key, i, count = 0;
     scanf("%d", &n);
 
@@ -60,4 +60,5 @@ int main() {
     printf("%d", count);
 
     return 0;
+
 }
