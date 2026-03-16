@@ -17,7 +17,7 @@ Output:
 
 Explanation: Swap pairs from both ends: (1,5), (2,4), middle 3 stays*/
 #include <stdio.h>
-int main(){
+int main() {
     int n;
     scanf("%d", &n);
 
