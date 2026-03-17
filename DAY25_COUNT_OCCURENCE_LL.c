@@ -22,7 +22,7 @@ Traverse the linked list from head to end. Each time a node's data matches the g
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node{
+struct Node {
     int data;
     struct Node* next;
 };
