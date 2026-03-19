@@ -11,7 +11,7 @@ Output:
 - Print the updated array with (n-1) elements, space-separated
 
 Example:
-Input:
+Input: 
 5
 10 20 30 40 50
 2
