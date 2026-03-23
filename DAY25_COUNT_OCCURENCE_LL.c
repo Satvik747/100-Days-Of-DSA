@@ -5,7 +5,7 @@ Input:
 - Second line: n space-separated integers (linked list elements)
 - Third line: integer key (element to be counted)
 
-Output:
+Output: 
 - Print the number of times the key appears in the linked list
 
 Example:
