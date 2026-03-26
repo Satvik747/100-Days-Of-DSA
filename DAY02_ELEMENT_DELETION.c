@@ -4,7 +4,7 @@ Problem: Write a C program to delete the element at a given 1-based position pos
 
 Input:
 - First line: integer n
-- Second line: n space-separated integers
+- Second line: n space-separated integers 
 - Third line: integer pos (1-based position to delete)
 
 Output:
