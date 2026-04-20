@@ -1,6 +1,6 @@
 /*Problem: Given an array of n integers, reverse the array in-place using two-pointer approach.
 
-Input:
+Input: 
 - First line: integer n
 - Second line: n space-separated integers
 
